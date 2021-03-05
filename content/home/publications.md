@@ -38,5 +38,5 @@ design:
 ---
 
 {{% callout note %}}
-Quickly discover relevant content by [filtering publications](./publication/).
+Find more publications via [Google Scholar](https://scholar.google.com/citations?user=h5KukxEAAAAJ).
 {{% /callout %}}
