@@ -26,6 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: PhD in Computer Science
+    institution: King Abdullah University of Science and Technology
+    year: 2018-
   - course: Visiting student
     institution: University of Wisconsin-Madison
     year: 2014-2015
@@ -43,7 +46,7 @@ education:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:biao.zhang@kaust.edu.sa'
+  link: '#contact'
 - icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
   icon_pack: fas
   link: https://scholar.google.com/citations?user=h5KukxEAAAAJ
