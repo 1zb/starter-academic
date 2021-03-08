@@ -30,6 +30,9 @@ education:
     institution: King Abdullah University of Science and Technology
     year: 2018-
   - course: Visiting student
+    institution: King Abdullah University of Science and Technology
+    year: 2017-2018
+  - course: Visiting student
     institution: University of Wisconsin-Madison
     year: 2014-2015
   - course: MSc in Mathematics
