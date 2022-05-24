@@ -26,6 +26,9 @@ interests:
 # Education to show in About widget
 education:
   courses:
+  - course: Visiting Researcher
+    institution: Technical University of Munich
+    year: 2021 Aug - 2021 Dec
   - course: PhD in Computer Science
     institution: King Abdullah University of Science and Technology
     year: 2018-
