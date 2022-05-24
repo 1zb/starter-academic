@@ -1,25 +1,25 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-title: "Training Data Generating Networks: Linking 3D Shapes and Few-Shot Classification"
+title: "Training Data Generating Networks: Shape Reconstruction via Bi-level Optimization"
 authors: [admin, Peter Wonka]
-date: 2020-10-05T23:51:50+03:00
+date: 2022-04-25T23:51:50+03:00
 doi: ""
 
 # Schedule page publish date (NOT publication's date).
-publishDate: 2020-10-05T23:51:50+03:00
+publishDate: 2022-04-25T23:51:50+03:00
 
 # Publication type.
 # Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
 # 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
 # 7 = Thesis; 8 = Patent
-publication_types: ["3"]
+publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "arxiv preprint"
+publication: "ICLR 2022"
 publication_short: ""
 
-abstract: "We propose a novel 3d shape representation for 3d shape reconstruction from a single image. Rather than predicting a shape directly, we train a network to generate a training set which will be feed into another learning algorithm to define the shape. Training data generating networks establish a link between few-shot learning and 3d shape analysis. We propose a novel meta-learning framework to jointly train the data generating network and other components. We improve upon recent work on standard benchmarks for 3d shape reconstruction, but our novel shape representation has many applications."
+abstract: "We propose a novel 3d shape representation for 3d shape reconstruction from a single image. Rather than predicting a shape directly, we train a network to generate a training set which will be fed into another learning algorithm to define the shape. The nested optimization problem can be modeled by bi-level optimization. Specifically, the algorithms for bi-level optimization are also being used in meta learning approaches for few-shot learning. Our framework establishes a link between 3D shape analysis and few-shot learning. We combine training data generating networks with bi-level optimization algorithms to obtain a complete framework for which all components can be jointly trained. We improve upon recent work on standard benchmarks for 3d shape reconstruction."
 
 # Summary. An optional shortened abstract.
 summary: "We found a link between shape reconstruction and few-shot learning."
@@ -39,6 +39,8 @@ featured: false
 links:
 - name: arxiv
   url: https://arxiv.org/abs/2010.08276
+- name: OpenReview
+  url: https://openreview.net/forum?id=dDo8druYppX
 url_pdf:
 url_code:
 url_dataset:
