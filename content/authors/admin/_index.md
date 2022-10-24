@@ -71,7 +71,7 @@ social:
 email: ""
 
 # Highlight the author in author lists? (true/false)
-highlight_name: false
+highlight_name: true
 ---
 
 Biao Zhang is a PhD candidate in Computer Science department at [KAUST](https://www.kaust.edu.sa). He is broadly interested in machine learning, deep learning and 3d vision. His current research interests include point cloud analysis and 3d shape analysis with deep networks. He is advised by [Prof. Peter Wonka](http://peterwonka.net/).

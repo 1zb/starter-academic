@@ -37,7 +37,13 @@ featured: false
 #   icon: twitter
 links:
 - name: arxiv
+  icon: arxiv
+  icon_pack: ai
   url: https://arxiv.org/abs/1912.00145
+- name: ScanNet
+  icon: hashtag
+  icon_pack: fas
+  url: https://kaldir.vc.in.tum.de/scannet_benchmark/result_details?id=343
 url_pdf:
 url_code:
 url_dataset:

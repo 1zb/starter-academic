@@ -17,7 +17,7 @@ publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
 publication: "ACM Trans. on Graphics (Proc. of SIGGRAPH Asia 2021)"
-publication_short: ""
+publication_short: In *SIGGRAPH Asia 2021*
 
 abstract: "We propose a novel and flexible roof modeling approach that can be used for constructing planar 3D polygon roof meshes. Our method uses a graph structure to encode roof topology and enforces the roof validity by optimizing a simple but effective planarity metric we propose. This approach is significantly more efficient than using general purpose 3D modeling tools such as 3ds Max or SketchUp, and more powerful and expressive than specialized tools such as the straight skeleton. Our optimization-based formulation is also flexible and can accommodate different styles and user preferences for roof modeling. We showcase two applications. The first application is an interactive roof editing framework that can be used for roof design or roof reconstruction from aerial images. We highlight the efficiency and generality of our approach by constructing a mesh-image paired dataset consisting of 2539 roofs. Our second application is a generative model to synthesize new roof meshes from scratch. We use our novel dataset to combine machine learning and our roof optimization techniques, by using transformers and graph convolutional networks to model roof topology, and our roof optimization methods to enforce the planarity constraint."
 
@@ -38,7 +38,13 @@ featured: false
 
 links:
 - name: arxiv
+  icon: arxiv
+  icon_pack: ai
   url: https://arxiv.org/abs/2109.07683
+- name: Code
+  icon: code
+  icon_pack: fas
+  url: https://github.com/llorz/SGA21_roofOptimization
 url_pdf:
 url_code:
 url_dataset:

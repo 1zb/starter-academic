@@ -16,8 +16,8 @@ publishDate: 2022-04-25T23:51:50+03:00
 publication_types: ["1"]
 
 # Publication name and optional abbreviated publication name.
-publication: "ICLR 2022"
-publication_short: ""
+publication: "International Conference on Learning Representations 2022"
+publication_short: "In *ICLR 2022*"
 
 abstract: "We propose a novel 3d shape representation for 3d shape reconstruction from a single image. Rather than predicting a shape directly, we train a network to generate a training set which will be fed into another learning algorithm to define the shape. The nested optimization problem can be modeled by bi-level optimization. Specifically, the algorithms for bi-level optimization are also being used in meta learning approaches for few-shot learning. Our framework establishes a link between 3D shape analysis and few-shot learning. We combine training data generating networks with bi-level optimization algorithms to obtain a complete framework for which all components can be jointly trained. We improve upon recent work on standard benchmarks for 3d shape reconstruction."
 
@@ -38,8 +38,12 @@ featured: false
 
 links:
 - name: arxiv
+  icon: arxiv
+  icon_pack: ai
   url: https://arxiv.org/abs/2010.08276
 - name: OpenReview
+  icon: file-pdf
+  icon_pack: fa
   url: https://openreview.net/forum?id=dDo8druYppX
 url_pdf:
 url_code:
